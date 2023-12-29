@@ -1,7 +1,7 @@
 {
   "name": "efemerides",
-  "version": "1.0.0",
-  "description": "La librería de Efemérides proporciona una forma sencilla de obtener efemérides para el día actual y para fechas específicas. Ideal para proyectos que necesitan mostrar eventos o datos históricos relevantes para una fecha determinada.",
+  "version": "1.0.1",
+  "description": "La librera de Efemérides proporciona una forma sencilla de obtener efemérides para el día actual y para fechas específicas. Ideal para proyectos que necesitan mostrar eventos o datos históricos relevantes para una fecha determinada.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
