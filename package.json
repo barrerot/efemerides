@@ -1,13 +1,17 @@
 {
   "name": "efemerides",
   "version": "1.0.0",
-  "description": "",
+  "description": "La librería de Efemérides proporciona una forma sencilla de obtener efemérides para el día actual y para fechas específicas. Ideal para proyectos que necesitan mostrar eventos o datos históricos relevantes para una fecha determinada.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["efemerides","dias internacionales", "dias mundiales"],
+   "author": {
+    "name": "Carlos Barrero Martínez",
+    "email": "barrerot@gmail.com",
+    "url": "https://www.linkedin.com/in/carlos-barrero-martinez/"
+  },
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
