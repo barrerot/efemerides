@@ -1,5 +1,6 @@
 const fs = require('fs');
 const moment = require('moment');
+const path = require('path');
 
 class Efemerides {
     constructor() {
@@ -8,7 +9,8 @@ class Efemerides {
     }
 
     cargarEfemerides() {
-        const lineas = fs.readFileSync('efemerides.csv', 'utf8').split('\n');
+        const rutaCsv = path.join(__dirname, 'efemerides.csv');
+        const lineas = fs.readFileSync(rutaCsv, 'utf8').split('\n');
         for (let i = 1; i < lineas.length; i++) {
             const [fecha, efemeride] = lineas[i].split(',').map(elem => elem.trim());
             if (fecha) {
@@ -16,10 +18,8 @@ class Efemerides {
             }
         }
         console.log('Efemérides cargadas.');
-        
     }
 
-    //  este métodopara imprimir todas las efemérides
     imprimirEfemerides() {
         console.log("Listado completo de efemérides:");
         for (let [fecha, efemeride] of this.efemerides) {
