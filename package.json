@@ -1,6 +1,6 @@
 {
   "name": "efemerides",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "La librera de Efemérides proporciona una forma sencilla de obtener efemérides para el día actual y para fechas específicas. Ideal para proyectos que necesitan mostrar eventos o datos históricos relevantes para una fecha determinada.",
   "main": "index.js",
   "scripts": {
