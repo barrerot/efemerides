@@ -19,7 +19,7 @@ La librería incluye dos métodos principales:
 ## Ejemplo de Uso
 
 ```javascript
-const Efemerides = require('[efemerides]');
+const Efemerides = require('efemerides');
 
 const miEfemerides = new Efemerides();
 
